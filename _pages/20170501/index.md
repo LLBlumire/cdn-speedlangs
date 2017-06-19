@@ -38,6 +38,6 @@ The first is mandatory; the rest is optional stuff for if you get bored, but I e
 
 {% for submission in site.static_files %}
 {% if submission.path contains "submissions/20170501/" %}
- * [{{submission.basename}}]({{submission.path}})
+ * [{{submission.basename}}]({{submission.path | prepend:site.baseurl}})
 {% endif %}
 {% endfor %}
