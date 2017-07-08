@@ -1,5 +1,5 @@
 ---
-permalink: "/20170703"
+permalink: "/20170703/"
 title: "2017-07-03"
 layout: page
 ---
